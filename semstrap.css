@@ -4970,6 +4970,24 @@ button::-moz-focus-inner {
   font-size: 2rem;
 }
 
+.strap.markdown-block {
+  padding: 0 1rem;
+}
+.strap.markdown-block > .strap.header {
+  padding-left: 1rem;
+}
+.strap.markdown-block > pre {
+  border-radius: 0.25rem;
+}
+.strap.markdown-block > blockquote {
+  border-radius: 0.25rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ced4da;
+  font-style: italic;
+  margin: 2rem 0;
+  padding: 1.5rem 1.5rem 1.5rem 4rem;
+}
+
 @keyframes rolling {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
